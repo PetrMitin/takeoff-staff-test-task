@@ -1,0 +1,54 @@
+@use 'base';
+
+#login-page {
+    height: 70% !important;
+    width: 50%;
+    margin: auto;
+    background: base.$primary-background;
+    box-shadow: 5px 20px 50px #000;
+    border-radius: 5%;
+}
+
+.button-container {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.input-container {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+button {
+    margin: 1%;
+    background-color: base.$input-background;
+    height: 7vh;
+    width: 50%;
+    border: none;
+    border-radius: 20%;
+    color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+    transition: .3s ease-in;
+	cursor: pointer;
+}
+
+button:hover {
+    background-color: base.$button-hover-color;
+    transform: scale(1.1);
+}
+
+input {
+    width: 50%;
+    height: 5vh;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 2%;
+    transition: .2s;
+    background-color: base.$input-background;
+}
+
+input:focus {
+    transform: scale(1.05);
+}

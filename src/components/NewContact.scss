@@ -1,0 +1,9 @@
+@use 'base';
+
+.new-contact {
+    width: 80% !important;
+}
+
+.add-contact-button:hover {
+    background-color: base.$my-green;
+}

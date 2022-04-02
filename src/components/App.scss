@@ -1,0 +1,13 @@
+@use 'base';
+
+html, body, #root, #app, #user-interface {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: base.$primary-background;
+  font-family: base.$primary-font;
+  color: base.$input-background;
+  overflow: auto;
+}

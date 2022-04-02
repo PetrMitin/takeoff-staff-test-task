@@ -1,0 +1,19 @@
+@use 'base';
+
+.contact {
+    width: 70%;
+    margin: auto;
+    background: base.$primary-background;
+    box-shadow: 5px 20px 50px #000;
+    border-radius: 5%;
+    background: base.$primary-background;
+    padding: 10px;
+}
+
+.change-contact-button:hover {
+    background-color: base.$my-green;
+}
+
+.delete-contact-button:hover {
+    background-color: base.$my-red;
+}

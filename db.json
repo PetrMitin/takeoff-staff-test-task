@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "username": "1",
+      "password": "1",
+      "contacts": [
+        {
+          "id": "1648745993765",
+          "email": "12345",
+          "phone": "123345"
+        },
+        {
+          "id": "1648746039884",
+          "email": "3",
+          "phone": "123"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "id": "1648748832230",
+      "username": "1231",
+      "password": "123",
+      "contacts": []
+    },
+    {
+      "id": "1648748874837",
+      "username": "ptenec",
+      "password": "228",
+      "contacts": []
+    },
+    {
+      "id": "1648748962863",
+      "username": "peter",
+      "password": "1",
+      "contacts": [
+        {
+          "id": "1648923484582",
+          "email": "p@sd.32",
+          "phone": "12313123123"
+        }
+      ]
+    },
+    {
+      "id": "1648920105549",
+      "username": "peter1",
+      "password": "1",
+      "contacts": [
+        {
+          "id": "1648920136138",
+          "email": "peter09mitin@mail.ru",
+          "phone": "1231231231"
+        }
+      ]
+    },
+    {
+      "id": "1648922845894",
+      "username": "ghgj",
+      "password": "ghggj",
+      "contacts": []
+    }
+  ]
+}
