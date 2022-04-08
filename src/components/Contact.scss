@@ -1,13 +1,20 @@
 @use 'base';
 
 .contact {
-    width: 70%;
+    width: 60%;
     margin: 2% auto;
     background: base.$primary-background;
     box-shadow: 5px 20px 50px #000;
     border-radius: 5%;
     background: base.$primary-background;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-input {
+    width: 100%;
 }
 
 .change-contact-button:hover {
@@ -16,4 +23,10 @@
 
 .delete-contact-button:hover {
     background-color: base.$my-red;
+}
+
+@media screen and (height < 510px) {
+    button {
+        font-size: 13px;
+    }
 }

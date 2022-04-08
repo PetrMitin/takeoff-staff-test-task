@@ -1,12 +1,15 @@
 @use 'base';
 
 #login-page {
-    height: 70% !important;
+    height: 70%;
     width: 50%;
     margin: auto;
     background: base.$primary-background;
     box-shadow: 5px 20px 50px #000;
     border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-container {
@@ -51,4 +54,21 @@ input {
 
 input:focus {
     transform: scale(1.05);
+}
+
+@media screen and (width < 536px) {
+    #login-page {
+        width: 90%;
+        margin-top: auto;
+    }
+
+    input, button {
+        width: 80%
+    }
+}
+
+@media screen and (height < 420px) {
+    #login-page {
+        height: 90%;
+    }
 }
